@@ -1,0 +1,399 @@
+header {
+	max-width: 1600px;
+	height: 750px;
+	margin:0 auto;
+	text-align: center;
+	background: url(../img/fon-header.jpg) center top;
+}
+.top-block {
+	width: 1220px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo {
+	float:left;
+}
+nav {
+	float:left;
+	margin-left: 200px;
+}
+nav ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	float:left;
+	margin:0 10px;
+} 
+nav a {
+	text-decoration: none;
+	font-size: 21px;
+	color:#fff;
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: bold;
+	padding:45px 15px 0;
+	display: block;
+}
+nav a:hover {
+	border-top: 3px solid #fff;
+}
+.socials {
+	float:right;
+	margin-top: 43px;
+}
+.socials a {
+	text-decoration: none;
+	color:#dab33e;
+	font-size: 21px;
+	margin-left:15px;
+}
+header h1 {
+	font-size: 90px;
+	font-family: 'Yeseva One', cursive;
+	color:#fff;
+	font-weight: normal;
+	width: 1000px;
+	margin:120px auto 0;
+}
+.uzor {
+	width: 232px;
+	height: 43px;
+	background: url(../img/uzor.png);
+	margin:25px auto;
+}
+.black, 
+.white {
+	width: 230px;
+	height: 57px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: .5s;
+	line-height: 57px;
+}
+.black {
+	border:1px solid #000;
+	margin-right: 15px;
+	background: rgba(0,0,0,.6);
+}
+.white {
+	border:1px solid #fff;
+	margin-left: 15px;
+	background: rgba(255,255,255,.3);
+}
+.black:hover,
+.white:hover {
+	transform: scale(1.2);
+}
+.about {
+	max-width: 1600px;
+	height: 710px;
+	margin:0 auto;
+	text-align: center;
+	background: url(../img/fon.jpg);
+}
+.cook {
+	display: inline-block;
+	width: 440px;
+	vertical-align: top;
+	margin:100px 40px 0 0;
+}
+.cook h3 {
+	margin: 0;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+	color:#c90;
+	font-weight: normal; 
+}
+.yellow-uzor {
+	width: 247px;
+	height: 24px;
+	background: url(../img/yellow-uzor.png);
+	margin:25px auto;
+}
+.cook p {
+	font-size: 16px;
+	color:#4c4c4c;
+	font-family: 'Lato', sans-serif;
+	line-height: 24px;
+	margin: 0;
+}
+.cook img {
+	margin: 50px 0 0 80px;
+}
+.dish {
+	margin:70px 0 0 40px;
+}
+.ingred {
+	max-width: 1600px;
+	height: 758px;
+	margin:0 auto;
+	background: url(../img/fon-ingred.jpg);
+	text-align: right;
+}
+.block-ingred {
+	width: 570px;
+	height: 555px;
+	display: inline-block;
+	background: rgba(0,0,0,.6);
+	text-align: center;
+	color:#fff;
+	padding:80px;
+	box-sizing: border-box;
+	margin:100px 215px 0 0;
+}
+.block-ingred h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	font-weight: normal;
+	margin: 0;
+}
+.white-uzor {
+	width: 247px;
+	height: 24px;
+	background: url(../img/white-uzor.png);
+	margin:25px auto;
+}
+.block-ingred p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+}
+.block-ingred a {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border:8px solid rgba(255,255,255,.4);
+	border-radius:50%;
+	overflow: hidden;
+	margin:40px 8px 0;
+	transition: 1s;
+}
+.block-ingred img {
+	width: 150px;
+}
+.block-ingred a:hover {
+	transform: rotateY(1turn);
+}
+.menu {
+	max-width: 1600px;
+	margin:0 auto;
+	text-align: center;
+	background: url(../img/fon.jpg);
+	padding:70px 0;
+}
+.block-menu {
+	width: 440px;
+	display: inline-block;
+	margin:0 75px;
+}
+.block-menu h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	color:#c90;
+	font-weight: normal;
+	margin: 0;
+}
+.price {
+	font-family: 'Yeseva One', cursive;
+	font-size: 21px;
+	color:#c90;
+	border-bottom: 1px solid #c90;
+	padding-bottom: 10px;
+	margin: 0;
+	overflow: hidden;
+}
+.price span:first-child {
+	float:left;
+}
+.price span:last-child {
+	float:right;
+}
+.info {
+	font-size: 16px;
+	color:#4c4c4c;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin: 0;
+	padding-top: 10px;
+}
+.punkt-menu {
+	margin-bottom: 35px;
+} 
+
+.special {
+	position:relative;
+	border:1px solid #c90;
+	padding:10px;
+	margin-top:40px;
+}
+.special:before {
+	content:"Special";
+	width: 70px;
+	height: 22px;
+	background: #c90;
+	color:#fff;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	display: block;
+	line-height: 22px;
+	position: absolute;
+	right:-1px;
+	top:-22px;
+}
+.reviews {
+	max-width: 1600px;
+	height: 758px;
+	margin:0 auto;
+	text-align: center;
+	background: url(../img/fon-review.jpg);
+}
+.block-review {
+	width: 770px;
+	height: 555px;
+	display: inline-block;
+	margin-top: 100px;
+	background: rgba(0,0,0,.6);
+	color:#fff;
+	padding:80px 75px;
+	box-sizing: border-box;
+}
+.block-review h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	margin: 0;
+	font-weight: normal;
+}
+.block-review p {
+	font-size: 25px;
+	color:#dde0df;
+	font-family: 'Gentium Book Basic', serif;
+	line-height: 45px;
+	position: relative;
+}
+.block-review p:before {
+	content:"\201C";
+	font-size: 96px;
+	font-family: Georgia;
+	position: absolute;
+	top:10px;
+	left:-40px;
+}
+.reserv {
+	max-width: 1600px;
+	padding:100px 0;
+	margin:0 auto;
+	background: url(../img/fon.jpg);
+	text-align: center;
+}
+.reserv img {
+	margin-right: 40px;
+}
+.block-reserv {
+	display: inline-block;
+	width: 440px;
+	vertical-align: top;
+	margin-left: 70px;
+}
+.block-reserv h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	color:#c90;
+	font-weight: normal;
+	margin: 0;
+}
+.block-reserv p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color:#4c4c4c;
+	line-height: 24px;
+}
+.form-block {
+	float:left;
+	width: 200px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 25px;
+}
+.form-block label {
+	font-size: 14px;
+	font-weight: bold;
+	color:#c90;
+}
+.form-block input {
+	width: 200px;
+	height:30px;
+	margin-top: 5px;
+	color:#7c7c7c;
+	font-size: 16px;
+	font-style: italic;
+	padding:0 15px;
+	box-sizing: border-box;
+	border:1px solid #c8c6c6;
+	background: rgba(255,255,255,.4);
+}
+.form-block:nth-child(even) {
+	margin-left: 40px;
+}
+.form-block input:focus {
+	border:1px solid #c90;
+	outline: none;
+}
+.form-block input[placeholder^="date"] {
+	background: rgba(255,255,255,.4) url(../img/date.png) 175px center no-repeat;
+}
+.block-reserv input[type="submit"] {
+	width: 200px;
+	height: 35px;
+	background: #c90;
+	border:none;
+	outline: none;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+footer {
+	max-width: 1600px;
+	padding: 55px 0;
+	margin:0 auto;
+	text-align: center;
+	background: #191919;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+}
+.foot-block {
+	display: inline-block;
+	width: 370px;
+	vertical-align: top;
+}
+.foot-block h5 {
+	font-size: 21px;
+	font-family: 'Yeseva One', cursive;
+	font-weight: normal;
+	margin: 0;
+}
+.foot-block p {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+}
+.foot-block img {
+	margin-top: 40px;
+}
+.foot-block a {
+	text-decoration: none;
+	color:#fff;
+	display: inline-block;
+	margin: 40px 5px 0;
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Yeseva One', cursive;
+font-family: 'Gentium Book Basic', serif;*/
