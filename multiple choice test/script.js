@@ -47,7 +47,7 @@ let score = 0;
 let questions = [
 {
 	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
-	imgSrc: "img/html.png",
+	imgSrc: "img/question_1.png",
 	choiceA: "Correct! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae",
 	choiceB: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae",
 	choiceC: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae",
@@ -56,7 +56,7 @@ let questions = [
 },
 {
 	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
-	imgSrc: "img/css.png",
+	imgSrc: "img/question_2.png",
 	choiceA: "Lorem ipsum dolor sit amet.",
 	choiceB: "Correct! Lorem ipsum dolor sit.",
 	choiceC: "Lorem ipsum dolor sit amet.",
@@ -65,7 +65,7 @@ let questions = [
 },
 {
 	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
-	imgSrc: "img/js.png",
+	imgSrc: "img/question_3.png",
 	choiceA: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
 	choiceB: "Lorem ipsum.",
 	choiceC: "Correct! Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
@@ -74,7 +74,7 @@ let questions = [
 },
 {
 	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
-	imgSrc: "img/js.png",
+	imgSrc: "img/question_4.png",
 	choiceA: "Wrong",
 	choiceB: "Wrong",
 	choiceC: "Wrong",
