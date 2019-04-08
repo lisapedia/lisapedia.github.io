@@ -46,39 +46,48 @@ let score = 0;
 
 let questions = [
 {
-	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
+	question: "A number one followed by one hundred zeros is known by what name?",
 	imgSrc: "img/question_1.png",
-	choiceA: "Correct! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae",
-	choiceB: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae",
-	choiceC: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae",
-	choiceD: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae",
+	choiceA: "Googol",
+	choiceB: "Megatron",
+	choiceC: "Gigabit",
+	choiceD: "Nanamote",
 	correct: "A"
 },
 {
-	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
+	question: "Which scientific unit is named after an Italian nobleman?",
 	imgSrc: "img/question_2.png",
-	choiceA: "Lorem ipsum dolor sit amet.",
-	choiceB: "Correct! Lorem ipsum dolor sit.",
-	choiceC: "Lorem ipsum dolor sit amet.",
-	choiceD: "Lorem ipsum dolor sit amet.",
-	correct: "B"
-},
-{
-	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
-	imgSrc: "img/question_3.png",
-	choiceA: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-	choiceB: "Lorem ipsum.",
-	choiceC: "Correct! Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-	choiceD: "Lorem ipsum dolor sit amet.",
+	choiceA: "Pascal",
+	choiceB: "Ohm",
+	choiceC: "Volt",
+	choiceD: "Hertz",
 	correct: "C"
 },
 {
-	question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nam, quibusdam reprehenderit beatae, tempora consectetur vitae ad! Vero, amet, qui?",
+	question: "Who was the first man to travel into space twice?",
+	imgSrc: "img/question_3.png",
+	choiceA: "Vladimir Titov",
+	choiceB: "Michael Collins",
+	choiceC: "Gus Grissom",
+	choiceD: "Yuri Gagarin",
+	correct: "C"
+},
+{
+	question: "Oberon is the satellite of which planet?",
 	imgSrc: "img/question_4.png",
-	choiceA: "Wrong",
-	choiceB: "Wrong",
-	choiceC: "Wrong",
-	choiceD: "Correct",
+	choiceA: "Neptune",
+	choiceB: "Uranus",
+	choiceC: "Mars",
+	choiceD: "Mercury",
+	correct: "B"
+},
+{
+	question: "If you planted the seeds of 'Quercus robur', what would grow??",
+	imgSrc: "img/question_5.png",
+	choiceA: "Vegetables",
+	choiceB: "Grain",
+	choiceC: "Flowers",
+	choiceD: "Trees",
 	correct: "D"
 }
 ];
