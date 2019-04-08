@@ -183,7 +183,7 @@ function scoreRender(){
 	scoreDiv.innerHTML += "<img src="+ img +">";
 	scoreDiv.innerHTML += "<p class='scorePercent'>"+ scorePercent +"%</p>";
 	scoreDiv.innerHTML += "<a id='export' class='myButton' download='' href='#''>Скачать результат</a>";
-	result += "Правильных ответов: " + score.toString();
+	result += "Правильных ответов: " + score.toString() + " из " + questions.length;
 	$(function () {
 		createDownloadLink("#export",result,"file.txt");
 	});
