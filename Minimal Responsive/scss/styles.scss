@@ -1,0 +1,144 @@
+$mustard_yellow: #f2ac04;
+$yellow: #f8d277;
+$light_gray: #ababab;
+$dark_gray: #3c3c3c;
+$menu_bp: 372px;
+$clients_bp: 992px;
+$about_bp: 767px;
+
+.head_line{
+	width: 100%;
+	height: 8px;
+	background-color: $mustard_yellow;
+	margin-bottom: 40px;
+}
+h5, h6{
+	text-transform: uppercase;
+	padding: 15px 0 15px 0;
+}
+header{
+	margin-bottom: 40px;
+}
+a{
+	color: $dark_gray;
+}
+a:hover{
+	color: black;
+}
+.circle{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+}
+.front{
+	background-color: $mustard_yellow;
+	transform: translate(-70%);
+}
+.back{
+	background-color: $yellow;
+}
+.logo{
+	transform: translate(15%);
+}
+.navbar-brand{
+	font-size: 2rem;
+}
+.caps{
+	text-transform: uppercase;
+	color: $mustard_yellow;
+	font-size: 1.5rem;
+}
+.low_case{
+	color: $light_gray;
+}
+.vertical_line{
+	border-right: 1px solid $light_gray;
+}
+.nav_menu{
+	border-top: 1px solid $light_gray;
+	border-bottom: 1px solid $light_gray;
+	margin-bottom: 40px;
+}
+.featured_products{
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+.prod_link{
+	padding: 25px 20px 20px 20px;
+}
+.borderline{
+	height: 1px;
+	background-color: $light_gray;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.about{
+	border-left: 1px solid $light_gray;
+	border-right: 1px solid $light_gray;
+}
+.contact{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	.icon{
+		width: 25%;
+	}
+}
+.phone, .fax, .email{
+	border-bottom: 1px dotted $light_gray; 
+}
+.day{
+	color: $mustard_yellow;
+	font-weight: bold;
+	font-size: 2rem;
+}
+.month{
+	color: $light_gray;
+	text-transform: uppercase;
+}
+.date{
+	border-right: 1px solid $light_gray;
+	margin-right: 15px;
+	padding-right: 15px;
+}
+.news_card{
+	display: flex;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted $light_gray;
+}
+.footer_nav{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	li{
+		border-right: 1px solid $light_gray;
+		a{
+			text-transform: uppercase;
+		}
+	}
+}
+.footer_nav :last-child{
+	border-right: none;
+}
+
+@media (max-width: $menu_bp) {
+	.footer_nav {
+		li{
+			border: none;
+		}		
+	}
+}
+@media (max-width: $clients_bp){
+	.client{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		i{
+			font-size: 3rem;
+		}
+	}
+}
+@media (max-width: $about_bp){
+	.about{
+		border: none;
+	}
+}

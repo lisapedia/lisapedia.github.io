@@ -1,0 +1,143 @@
+.head_line {
+  width: 100%;
+  height: 8px;
+  background-color: #f2ac04;
+  margin-bottom: 40px; }
+
+header {
+  margin-bottom: 40px; }
+
+a {
+  color: #3c3c3c; }
+
+a:hover {
+  color: black; }
+
+.circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%; }
+
+.front {
+  background-color: #f2ac04;
+  transform: translate(-70%); }
+
+.back {
+  background-color: #f8d277; }
+
+.logo {
+  display: flex;
+  transform: translate(15%); }
+
+.brand {
+  display: flex;
+  align-items: center; }
+
+.navbar-brand {
+  font-size: 2rem; }
+
+.caps {
+  text-transform: uppercase;
+  color: #f2ac04;
+  font-size: 1.5rem; }
+
+.low_case {
+  color: #ababab; }
+
+.vertical_line {
+  border-right: 1px solid #ababab; }
+
+.nav_menu {
+  border-top: 1px solid #ababab;
+  border-bottom: 1px solid #ababab;
+  margin-bottom: 40px; }
+
+.nav {
+  justify-content: space-around; }
+
+.prod_link {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px; }
+
+.card_button {
+  display: flex;
+  justify-content: flex-end; }
+
+.borderline {
+  height: 1px;
+  background-color: #ababab;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ababab;
+  border-right: 1px solid #ababab; }
+  .about button {
+    align-self: flex-end; }
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+  .contact .icon {
+    width: 25%;
+    display: flex;
+    justify-content: center; }
+
+.phone, .fax, .email {
+  border-bottom: 1px dotted #ababab; }
+
+.day {
+  color: #f2ac04;
+  font-weight: bold;
+  font-size: 2rem; }
+
+.month {
+  color: #ababab;
+  text-transform: uppercase; }
+
+.date {
+  border-right: 1px solid #ababab;
+  margin-right: 15px;
+  padding-right: 15px; }
+
+.news_card {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #ababab; }
+
+.client {
+  display: flex;
+  justify-content: center; }
+
+.lower_logo {
+  display: flex;
+  justify-content: center; }
+
+.footer_nav {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .footer_nav li {
+    border-right: 1px solid #ababab; }
+    .footer_nav li a {
+      text-transform: uppercase; }
+
+.footer_nav :last-child {
+  border-right: none; }
+
+.footer_menu {
+  display: flex;
+  justify-content: center; }
+
+.copyright {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=styles.css.map */
